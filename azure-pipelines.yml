@@ -25,5 +25,6 @@ stages:
       inputs:
         command: build
         dockerfile: 'docker  run'
-        tags: |
+        tags: |test 
           $(tag)
+   echo hello 
